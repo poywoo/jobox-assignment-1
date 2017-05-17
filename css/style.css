@@ -1,0 +1,58 @@
+/*
+ *
+ * Template: Jobox.ai Frontend Assignemnt 1
+ * Author: Poy Woo
+ *
+ */
+
+body {
+	color: #696969;	
+}
+
+/* ===ASSIGNMENT 1===*/
+#submitCause {
+	font-size: 5em;
+	margin-top: -5px;
+	margin-bottom: 20px;
+}
+
+.register-container {
+	margin-bottom: 50px;
+}
+
+.page-header { 
+	border-bottom:none; 
+}
+
+.form-control:focus {
+	border-color: #ff0080;
+	box-shadow: inset 0 1px 1px #ffe6f3, 0 0 8px #ffcce6;
+}
+
+#description {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left:10px;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+
+#iphone {
+	max-width: 100%;
+	margin-bottom: 30px;
+}
+
+.btn-m,
+.btn-m:focus,
+.btn-m:active {
+	color: #ffffff;
+	background-color: #ff0080;
+	border-color: #ff0080;
+}
+
+.btn-m:hover {
+	color: #ffffff;
+	background-color: #e60073;
+	border-color: #e60073;
+}
+
