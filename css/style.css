@@ -13,10 +13,10 @@ body {
 #submitCause {
 	font-size: 5em;
 	margin-top: -5px;
-	margin-bottom: 20px;
 }
 
 .register-container {
+	margin-top: -25px;
 	margin-bottom: 50px;
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 #description {
-	margin-top: 10px;
+	margin-top: 30px;
 	margin-bottom: 10px;
 	padding-left:10px;
 	padding-top:10px;
@@ -42,6 +42,7 @@ body {
 	margin-bottom: 30px;
 }
 
+
 .btn-m,
 .btn-m:focus,
 .btn-m:active {
@@ -50,9 +51,22 @@ body {
 	border-color: #ff0080;
 }
 
+.btn-m:focus {
+	outline: none !important;
+}
+
 .btn-m:hover {
 	color: #ffffff;
 	background-color: #e60073;
 	border-color: #e60073;
+}
+
+.btn-xlg {
+	padding: 18px 28px;
+    font-size: 22px;
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
 }
 
