@@ -42,7 +42,6 @@ body {
 	margin-bottom: 30px;
 }
 
-
 .btn-m,
 .btn-m:focus,
 .btn-m:active {
@@ -70,3 +69,21 @@ body {
             border-radius: 8px;
 }
 
+.overlay {
+    background: rgba(192,192,192, 0.5);  
+    display: none;        
+    position: fixed;   
+    top: 0;                  
+    right: 0;               
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+}
+
+#loading-img {
+	position: absolute;
+	top: 50%;
+	width: 100%
+}
